@@ -3,18 +3,20 @@ package huevoSorpresa;
 /**
  *
  * @author Camila Belén Lerda Díez
+ *  
  */
 public class HuevoSorpresaLerdaDiezCamilaBelen {
 
     /**
-     * @return the precio
+     * Método que devuelve el precio actual de un huevo sorpresa
+     * @return- devuelve el precio del huevo sorpresa
      */
     public double getPrecio() {
         return precio;
     }
 
     /**
-     * @param precio the precio to set
+     * @param precio-precio de un huevo sorpresa
      */
     public void setPrecio(double precio) {
         this.precio = precio;
@@ -28,7 +30,7 @@ public class HuevoSorpresaLerdaDiezCamilaBelen {
     /*Constructor por defecto*/
 
     /**
-     *
+     *Constructor sin parámetros
      */
 
     public HuevoSorpresaLerdaDiezCamilaBelen() {
@@ -38,11 +40,11 @@ public class HuevoSorpresaLerdaDiezCamilaBelen {
     /*Constructor por parámetros*/
 
     /**
-     *
-     * @param unidades
-     * @param precio
-     * @param sorpresa
-     * @param precio_max
+     * Constructor con cuatro parámetros
+     * @param unidades-número de huevos
+     * @param precio-precio actual de un huevo sorpresa
+     * @param sorpresa-nombre de la sorpresa que incluye huevo sorpresa
+     * @param precio_max-precio máximo que puede tener un huevo sorpresa
      */
 
     public HuevoSorpresaLerdaDiezCamilaBelen(int unidades, double precio, String sorpresa, double precio_max) {
@@ -57,7 +59,7 @@ public class HuevoSorpresaLerdaDiezCamilaBelen {
 
     /**
      *
-     * @return unidades
+     * @return unidades- devuelve el número de huevos sorpresa
      */
 
     public int obtenerUnidades() {
@@ -68,7 +70,7 @@ public class HuevoSorpresaLerdaDiezCamilaBelen {
 
     /**
      *
-     * @return precio
+     * @return precio- devuelve el precio actual de un huevo
      */
 
     public double obtenerPrecio() {
@@ -80,7 +82,7 @@ public class HuevoSorpresaLerdaDiezCamilaBelen {
 
     /**
      *
-     * @return sorpresa
+     * @return sorpresa- devuelve el nombre de la sorpresa
      */
 
     public String obtenerSorpresa() {
@@ -90,8 +92,8 @@ public class HuevoSorpresaLerdaDiezCamilaBelen {
     /* Método que permite modificar la sorpresa del huevo*/
 
     /**
-     *
-     * @param sorpresa
+     * Constructor de un parámetro
+     * @param sorpresa- devuelve el nombre nuevo de la sorpresa
      */
 
     public void modificarSorpresa(String sorpresa) {
@@ -102,8 +104,8 @@ public class HuevoSorpresaLerdaDiezCamilaBelen {
     /*Método que permite modificar el número de huevos sorpresa que tiene la tienda*/
 
     /**
-     *
-     * @param unidades
+     * Constructor de un parámetro
+     * @param unidades- número de huevos sorpresa que existen actualmente en la tienda
      */
 
     public void modificarUnidades(int unidades) {
@@ -115,10 +117,10 @@ public class HuevoSorpresaLerdaDiezCamilaBelen {
 suficientes unidades en la tienda*/
 
     /**
-     *
-     * @param unidades
-     * @param dinero
-     * @param sorpresaLerdaDiezCamilaBelen2122
+     * Constructor de tres parámetros
+     * @param unidades-número de huevos sorpresa que existen actualmente en la tienda
+     * @param dinero-importe del que dispone el comprador
+     * @param sorpresaLerdaDiezCamilaBelen2122-nombre actual de la sorpresa
      * @throws Exception
      */
 
@@ -144,7 +146,7 @@ suficientes unidades en la tienda*/
 
     /**
      *
-     * @param aumento
+     * @param aumento-cantidad especulativa que dsipone el vendedor para sacarle de ganancia al huevo sorpresa que vende
      * @throws Exception
      */
 
@@ -159,14 +161,14 @@ suficientes unidades en la tienda*/
     }
 
     /**
-     * @return the precio_maxLedaDiezCamilaBelen2122
+     * @return precio_maxLedaDiezCamilaBelen2122- precio máximo al que se puede vender el huevo
      */
     public double getPrecio_maxLedaDiezCamilaBelen2122() {
         return precio_maxLerdaDiezCamilaBelen2122;
     }
 
     /**
-     * @param precio_maxLedaDiezCamilaBelen2122 the precio_maxLedaDiezCamilaBelen2122 to set
+     * @param precio_maxLedaDiezCamilaBelen2122- precio máximo al que se puede vender el huevo
      */
     public void setPrecio_maxLedaDiezCamilaBelen2122(double precio_maxLedaDiezCamilaBelen2122) {
         this.precio_maxLerdaDiezCamilaBelen2122 = precio_maxLedaDiezCamilaBelen2122;
